@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Cifar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79f75f2740.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            Web Cifar
+        </div>
+        <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">HIRE ME</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="hambar"></div>
+            <div class="hambar"></div>
+            <div class="hambar"></div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="hero">
+            <h1>I Design
+                Your Dream</h1>
+                <h2>I AM A WEB DESIGNER</h2>
+                <a href="#">PORTFOLIO</a>
+        </div>
+        <div class="hero-img">
+            <img src="/img-1.jpg" alt="">
+        </div>
+    </section>
+    <section id="aboutme">
+        <div class="aboutme">
+            <h1>ABOUT ME</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit quidem
+                ullam voluptates repellendus explicabo placeat expedita ratione saepe eaque
+                dolorum sed deleniti,odit numquam, nostrum tempore quos corrupti nem.</p>
+                <a class="back" href="#">DOWNLOAD RESUME</a>
+        </div>
+        <div class="aboutme_box">
+            <div class="aboutme_img">
+                <img src="/img-2.jpg" alt="">
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="service">
+        <div class="service-header">
+            <h1>SERVICES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Magni temporibus,
+                omnis llum ipsa reiciendis illo cos odio possimus voluptatibus architecto.</p>
+        </div>
+        <div class="service-flex">
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <div class="service-card-front">
+                      <i class="fa-sharp fa-solid fa-palette"></i>
+                        <h1>Web Design</h1>
+                    </div>
+                    <div class="service-card-back">
+                        <h1>Web Design</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Cum aut
+                            dolor voluptatem incidunt placeat impedlaboriosam quam
+                            consequatur quasi nihil libero ad, quaerat, alias illum excepturi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <div class="service-card-front">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h1>Front End Dev</h1>
+                    </div>
+                    <div class="service-card-back">
+                        <h1>Front End Dev</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Cum aut
+                            dolor voluptatem incidunt placeat impedlaboriosam quam
+                            consequatur quasi nihil libero ad, quaerat, alias illum excepturi</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-wrapper">
+                <div class="service-card">
+                    <div class="service-card-front">
+                        <i class="fa-solid fa-building"></i>
+                        <h1>Branding</h1>
+                    </div>
+                    <div class="service-card-back">
+                        <h1>Branding</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Cum aut
+                            dolor voluptatem incidunt placeat impedlaboriosam quam
+                            consequatur quasi nihil libero ad, quaerat, alias illum excepturi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="info">
+        <div class="info">
+            <h1>Hire me to build your dream website</h1>
+            <a class="back" href="#">HIRE ME !!</a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <h1>CONTACT WITH ME</h1>
+            <p>Email: atharvabaodhankar@gmail.com</p>
+            <p>Mobile: 234 234 2342</p>
+
+            <h2>Follow Me</h2>
+            <div class="social-media">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-behance"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+
+        let hamburger = document.querySelector('.hamburger');
+        let navBar = document.querySelector('nav');
+
+        hamburger.addEventListener('click' , ()=>{
+            hamburger.classList.toggle('active');
+            navBar.classList.toggle('active');
+        })
+    </script>
+    
+</body>
+</html>
